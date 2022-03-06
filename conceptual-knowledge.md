@@ -6,12 +6,13 @@ This means that it is a self-executing contract to which you can basically add a
 - It can facilitate access to and distribution of funds based on specified conditions.
 - It can create, transfer, and alter digital assets.
 - It can interact with other contracts.
+
 Thus, a smart contract is technically a base layer for the Internet of Value.
 
 “To deploy” a smart contract means “to put it on the blockchain”.  A smart contract is written in a high-level language, such as Solidity, and must be compiled into machine-readable code before it can be deployed. During the compilation process various so-called “artifacts” are generated such as the bytecode for deploying the contract and the application binary interface (= “ABI”) for higher-level applications (like web apps) to interact with a binary smart contract. The contract address is generated for its creation and deployment and it can be used to interact with the contract later on. You need to pay gas to deploy your contract.
 
 ## 2 - What is gas? Why is gas optimization such a big focus when building smart contracts?
-Gas is a transaction fee that must be paid for every operation made on many blockchains such as Ethereum. The miners who validate your contract will charge this fee. It is in part an incentive for miners to participate but also a fail-safe to prevent infinite loops and buggy code from running and spamming the blockchain.
+Gas is a transaction fee that must be paid for every operation made on blockchains such as Ethereum. The miners who validate your contract will charge this fee. It is in part an incentive for miners to participate but also a fail-safe to prevent infinite loops and buggy code from running and spamming the blockchain.
 Gas is expensive, especially on the Ethereum blockchain which is why it is so important to optimize the possible gas fee spent. One reason why gas is so expensive on Ethereum is that it is a so-called “Proof of Work” network that consumes a lot of energy for the validation process (which is also really bad for the environment). This is why Ethereum is working on becoming a “Proof of Stake” network that consumes a lot less energy.
 
 ## 3 - What is a hash? Why do people use hashing to hide information?

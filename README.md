@@ -1,2 +1,2 @@
 # zku_bg-assignment
-My background assignment for my ZKU (2022 2nd Cohort) application
+These are the related files for my background assignment for ZKU.
